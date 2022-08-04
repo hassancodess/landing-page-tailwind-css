@@ -286,14 +286,19 @@
     <section id="learn-more" class="bg-slate-100">
       <div class="container flex py-20 mx-auto max-w-7xl">
         <!-- Content -->
-        <div class="flex flex-col justify-center px-20">
+        <div class="flex flex-col justify-center max-w-3xl px-20 space-y-6">
           <h1 class="text-4xl">Urbane Messaging now got the next level</h1>
-          <p>
+          <p class="text-sm text-slate-600">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Praesentium, minus odio? Consequatur quaerat esse voluptas quidem,
             maiores beatae laudantium illum ad explicabo at fugiat praesentium
             repellendus quae tempora labore non.
           </p>
+          <button
+            class="px-4 py-2 text-sm text-white shadow-md w-28 bg-lightGreen shadow-lightGreen"
+          >
+            Know more
+          </button>
         </div>
       </div>
     </section>
@@ -323,7 +328,7 @@
     <!-- Jumbotron -->
     <section id="jumbotron">
       <div
-        class="flex flex-col items-center justify-center w-screen py-10 mx-auto my-20 text-white h-4/6 bg-opacity-60 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
+        class="flex flex-col items-center justify-center w-screen py-10 mx-auto text-white h-4/6 bg-gradient-to-r from-green-200 via-green-400 to-green-500"
       >
         <div class="flex flex-col max-w-md space-y-12 text-center">
           <div class="flex flex-col space-y-6 text-center">
@@ -400,5 +405,37 @@
       </div>
     </section>
     <!-- Footer -->
+    <section id="footer">
+      <div
+        class="container flex items-center justify-between w-screen py-10 mx-auto max-w-7xl"
+      >
+        <!-- Right Side -->
+        <div class="flex flex-col max-w-lg space-y-6">
+          <!-- Logo -->
+          <img src="../images/avatar.jpg" alt="" class="rounded-full w-14" />
+          <!-- Content -->
+          <p class="text-sm text-slate-600">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ad
+            fugit corrupti quae, repudiandae earum odio optio aliquam ipsa
+            repellat sint ipsam enim, omnis id? Aperiam optio praesentium minus
+            rerum!
+          </p>
+          <p class="text-sm text-slate-600">&copy; 2022</p>
+        </div>
+        <!-- Left Side -->
+        <div class="flex space-x-10">
+          <div class="flex flex-col space-y-4">
+            <p>About Us</p>
+            <p>Product Details</p>
+            <p>Pricing</p>
+          </div>
+          <div class="flex flex-col space-y-4">
+            <p>Privacy policy</p>
+            <p>User Agreement</p>
+            <p>Contact</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
