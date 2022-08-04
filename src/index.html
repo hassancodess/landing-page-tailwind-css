@@ -28,7 +28,7 @@
     <div class="max-h-screen overflow-hidden">
       <!-- Navbar -->
       <div
-        class="container mx-auto flex max-w-7xl items-center justify-between py-5"
+        class="container flex items-center justify-between py-5 mx-auto max-w-7xl"
       >
         <!-- Brand Name -->
         <h4 class="text-xl font-medium text-lightGreen">Brand Name</h4>
@@ -43,9 +43,9 @@
         </div>
       </div>
       <!-- Hero Section -->
-      <section class="container mx-auto max-h-screen max-w-7xl">
+      <section class="container max-h-screen mx-auto max-w-7xl">
         <div
-          class="relative flex items-center justify-start space-x-10 overflow-y-clip overflow-x-visible py-40"
+          class="relative flex items-center justify-start py-40 space-x-10 overflow-x-visible overflow-y-clip"
         >
           <!-- Content -->
           <div class="flex flex-col space-y-8">
@@ -63,13 +63,13 @@
             <!-- Buttons -->
             <div class="flex space-x-5">
               <button
-                class="flex items-center space-x-5 bg-lightGreen py-3 px-6 text-white shadow-md shadow-lightGreen"
+                class="flex items-center px-6 py-3 space-x-5 text-white shadow-md bg-lightGreen shadow-lightGreen"
               >
                 <i class="fa-brands fa-apple fa-lg"></i>
                 <span class="text-sm">App Store</span>
               </button>
               <button
-                class="flex items-center space-x-5 bg-lightGreen py-3 px-6 text-white shadow-md shadow-lightGreen"
+                class="flex items-center px-6 py-3 space-x-5 text-white shadow-md bg-lightGreen shadow-lightGreen"
               >
                 <i class="fa-brands fa-google fa-lg"></i>
                 <span class="text-sm">Google Play</span>
@@ -80,19 +80,19 @@
           <img
             src="../images/background-1.jpg"
             alt="Background"
-            class="absolute top-20 -right-32 w-2/6 -rotate-12 drop-shadow-2xl"
+            class="absolute w-2/6 top-20 -right-32 -rotate-12 drop-shadow-2xl"
           />
           <img
             src="../images/background-1.jpg"
             alt="Background"
-            class="absolute top-36 right-80 w-2/6 -rotate-12 drop-shadow-2xl"
+            class="absolute w-2/6 top-36 right-80 -rotate-12 drop-shadow-2xl"
           />
         </div>
       </section>
     </div>
     <!-- Features Section -->
-    <section class="container mx-auto my-20 max-w-7xl space-y-20 text-center">
-      <h1 class="mx-auto max-w-2xl text-3xl">
+    <section class="container mx-auto my-20 space-y-20 text-center max-w-7xl">
+      <h1 class="max-w-2xl mx-auto text-3xl">
         Our software features custom designed for startups to excel.
       </h1>
       <div class="grid grid-cols-1 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
@@ -147,12 +147,12 @@
       </div>
     </section>
     <!-- Jumbotron -->
-    <section class="mx-auto bg-black text-white">
+    <section class="mx-auto text-white bg-black">
       <div
-        class="mx-auto flex max-w-7xl items-center justify-evenly space-x-10 pt-10"
+        class="flex items-center pt-10 mx-auto space-x-10 max-w-7xl justify-evenly"
       >
         <img src="../images/vr.png" alt="Jumbotron" class="" />
-        <div class="flex max-w-lg flex-col space-y-6">
+        <div class="flex flex-col max-w-lg space-y-6">
           <h1 class="text-sm font-light uppercase">Why you need our pixel</h1>
           <h1 class="text-2xl">
             Unmatched performance in the high-end Android range.
@@ -162,7 +162,7 @@
             the benefits we mentioned everywhere. Everything comes at a cost.
           </p>
           <button
-            class="w-28 bg-lightGreen py-2 px-4 text-sm text-white shadow-md shadow-lightGreen"
+            class="px-4 py-2 text-sm text-white shadow-md w-28 bg-lightGreen shadow-lightGreen"
           >
             Buy Now
           </button>
@@ -172,10 +172,10 @@
     <!-- RLT_Updates -->
     <section id="RLT_Updates">
       <div
-        class="container mx-auto flex max-w-7xl items-center justify-between py-40"
+        class="container flex items-center justify-between py-40 mx-auto max-w-7xl"
       >
         <!-- Content -->
-        <div class="flex max-w-xl flex-col space-y-6">
+        <div class="flex flex-col max-w-xl space-y-6">
           <h1 class="text-4xl leading-10">
             Real time updates and activity demographics
           </h1>
@@ -192,10 +192,10 @@
     <!-- Pricing Section  -->
     <section id="pricing" class="bg-slate-100">
       <div
-        class="container mx-auto flex max-w-7xl items-center justify-between py-40"
+        class="container flex items-center justify-between py-20 mx-auto max-w-7xl"
       >
         <!-- Content -->
-        <div class="flex max-w-lg flex-col space-y-6">
+        <div class="flex flex-col max-w-lg space-y-6">
           <p class="text-sm uppercase">Pricing</p>
           <h3 class="text-4xl font-light">
             Pick the right pricing plan for your needs
@@ -209,42 +209,76 @@
           </p>
         </div>
         <!-- Pricing Card 1 -->
-        <div class="rounded-xl bg-white py-20 px-16 shadow-xl">
+        <div class="px-16 py-20 bg-white shadow-xl rounded-xl">
           <!-- Card Container -->
           <div class="flex flex-col items-center space-y-10">
             <h3 class="text-xl font-medium">Free Plan</h3>
             <h2 class="text-4xl font-light text-slate-400">Free</h2>
             <!-- Features -->
-            <div class="flex flex-col items-center space-y-6 pt-6">
+            <div class="flex flex-col items-center pt-6 space-y-6">
               <p>First basic feature</p>
               <p>Second feature goes here</p>
               <p>Any other third feature</p>
             </div>
             <button
-              class="w-28 bg-lightGreen py-2 px-4 text-sm text-white shadow-md shadow-lightGreen"
+              class="px-4 py-2 text-sm text-white shadow-md w-28 bg-lightGreen shadow-lightGreen"
             >
               Buy Now
             </button>
           </div>
         </div>
         <!-- Pricing Card 2 -->
-        <div class="rounded-xl bg-white py-20 px-16 shadow-xl">
+        <div class="px-16 py-20 bg-white shadow-xl rounded-xl">
           <!-- Card Container -->
           <div class="flex flex-col items-center space-y-10">
             <h3 class="text-xl font-medium">Free Plan</h3>
             <h2 class="text-4xl font-light text-slate-400">Free</h2>
             <!-- Features -->
-            <div class="flex flex-col items-center space-y-6 pt-6">
+            <div class="flex flex-col items-center pt-6 space-y-6">
               <p>First basic feature</p>
               <p>Second feature goes here</p>
               <p>Any other third feature</p>
             </div>
             <button
-              class="w-28 bg-lightGreen py-2 px-4 text-sm text-white shadow-md shadow-lightGreen"
+              class="px-4 py-2 text-sm text-white shadow-md w-28 bg-lightGreen shadow-lightGreen"
             >
               Buy Now
             </button>
           </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial -->
+    <section id="testimonial">
+      <div class="flex flex-col items-center py-20 space-y-10">
+        <!-- Avatar -->
+        <div class="">
+          <img
+            src="../images/avatar.jpg"
+            alt="avatar"
+            class="w-20 rounded-full"
+          />
+        </div>
+        <!-- Review -->
+        <div class="max-w-4xl leading-7 text-center">
+          <p class="text-slate-400">
+            Going to use some lorem ipsum here. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Modi facilis corporis tempore maxime
+            ad cupiditate minima expedita aspernatur est dolores.
+          </p>
+        </div>
+        <!-- Info -->
+        <div class="text-center">
+          <p>- Alison Burgers</p>
+          <p>CEO Manga Holdings</p>
+        </div>
+        <!-- Rating -->
+        <div class="text-yellow-500">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half"></i>
         </div>
       </div>
     </section>
