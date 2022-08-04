@@ -16,6 +16,9 @@ module.exports = {
         lightGreen: '#41cd52',
         lightGray: '#f8f8f8',
       },
+      backgroundImage: {
+        jumbotron: "url('../images/jumbotron.jpg')",
+      },
     },
   },
   plugins: [],
